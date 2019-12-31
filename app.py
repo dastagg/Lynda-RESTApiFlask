@@ -15,6 +15,7 @@ app.config["JWT_SECRET_KEY"] = "super-secret"  # change this IRL
 app.config["MAIL_SERVER"] = "smtp.mailtrap.io"
 app.config["MAIL_SERVER"] = "smtp.mailtrap.io"
 app.config["MAIL_PORT"] = 2525
+# TODO: Change/Refresh credentials after testing --- DONE
 app.config["MAIL_USERNAME"] = "8664604e9911c9"
 app.config["MAIL_PASSWORD"] = "7cf270f23b2114"
 app.config["MAIL_USE_TLS"] = True
